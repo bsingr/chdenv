@@ -1,0 +1,8 @@
+#!/bin/bash
+
+src=.env.$1*
+
+if [ -f $src ]; then
+  echo "Using `ls $src`"
+  ln -sF $src .env
+fi
