@@ -9,7 +9,7 @@ Change .env files via symlink
     # .env.develop.example
     # .env.integration
 
-    chdenv a
+    chdenv a*
 
     # Using .env.approval
 
